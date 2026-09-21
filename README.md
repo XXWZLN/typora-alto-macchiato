@@ -35,7 +35,3 @@ GitHub 自动生成的 **Source code** 压缩包不含字体；请使用带 `-of
 Alto Macchiato 基于 [Alto](https://github.com/Seeridia/typora-theme-alto) 与 [Lapis](https://github.com/YiNNx/typora-theme-lapis)，采用 [Catppuccin Macchiato](https://github.com/catppuccin/catppuccin) 配色，并搭配 [霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 与 [Maple Mono](https://github.com/subframe7536/maple-font)。感谢这些项目的作者。
 
 本项目的修改与脚本采用 [MIT License](LICENSE)；字体保留各自的 OFL 许可。完整的依赖关系与许可见 [来源说明](THIRD_PARTY_NOTICES.md)。
-
----
-
-[从源码构建与维护](docs/DEVELOPMENT.md)
