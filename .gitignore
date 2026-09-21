@@ -1,0 +1,10 @@
+.DS_Store
+.cache/
+dist/
+__pycache__/
+*.pyc
+# Font binaries belong in release assets, never in Git history.
+*.ttf
+*.otf
+*.woff
+*.woff2

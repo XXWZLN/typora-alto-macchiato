@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "fonts": [
+    {
+      "path": "theme/alto-macchiato/fonts/LXGWWenKai-Light.ttf",
+      "sha256": "526ec70cbb0118e871d481f8179e03ff045f0e4d72d080dcca87950c4ab27cca",
+      "size": 28267156,
+      "url": "https://github.com/lxgw/LxgwWenKai/releases/download/v1.522/LXGWWenKai-Light.ttf",
+      "license": "theme/alto-macchiato/THIRD_PARTY_LICENSES.txt"
+    },
+    {
+      "path": "theme/alto-macchiato/fonts/LXGWWenKai-Regular.ttf",
+      "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+      "size": 25575676,
+      "url": "https://github.com/lxgw/LxgwWenKai/releases/download/v1.522/LXGWWenKai-Regular.ttf",
+      "license": "theme/alto-macchiato/THIRD_PARTY_LICENSES.txt"
+    },
+    {
+      "path": "theme/alto-macchiato/fonts/LXGWWenKai-Medium.ttf",
+      "sha256": "d4bdeb38a39151d74d084cba5090f8cb7d20bf83eedb78c35939ae70b9f4e3f6",
+      "size": 25379848,
+      "url": "https://github.com/lxgw/LxgwWenKai/releases/download/v1.522/LXGWWenKai-Medium.ttf",
+      "license": "theme/alto-macchiato/THIRD_PARTY_LICENSES.txt"
+    },
+    {
+      "path": "theme/alto-macchiato/fonts/MapleMono-NF-CN-Regular.ttf",
+      "sha256": "8b4f149beaead3eac78ffb84adf31513ebf06fe6dbc6e181ccd9debad3c70f1a",
+      "size": 20564436,
+      "url": "https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-NF-CN-unhinted.zip",
+      "archive_sha256": "ab88522932cf4015dffeaef6dedc59a22a5fefecdcc6e583d9fcd997da5b7cac",
+      "member_basename": "MapleMono-NF-CN-Regular.ttf",
+      "license": "theme/alto-macchiato/THIRD_PARTY_LICENSES.txt"
+    },
+    {
+      "path": "theme/alto-macchiato/fonts/MapleMono-NF-CN-Bold.ttf",
+      "sha256": "25a3c344f0d915e443bd09339ef512f9cade14c2200612a37e6b8e8261940152",
+      "size": 20517616,
+      "url": "https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-NF-CN-unhinted.zip",
+      "archive_sha256": "ab88522932cf4015dffeaef6dedc59a22a5fefecdcc6e583d9fcd997da5b7cac",
+      "member_basename": "MapleMono-NF-CN-Bold.ttf",
+      "license": "theme/alto-macchiato/THIRD_PARTY_LICENSES.txt"
+    },
+    {
+      "path": "theme/alto-macchiato/fonts/MapleMono-NF-CN-Italic.ttf",
+      "sha256": "01bdec5ec238ad782eeb64fb9fbb9672881021744151b6d56436d79a72fc8973",
+      "size": 21289212,
+      "url": "https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-NF-CN-unhinted.zip",
+      "archive_sha256": "ab88522932cf4015dffeaef6dedc59a22a5fefecdcc6e583d9fcd997da5b7cac",
+      "member_basename": "MapleMono-NF-CN-Italic.ttf",
+      "license": "theme/alto-macchiato/THIRD_PARTY_LICENSES.txt"
+    },
+    {
+      "path": "theme/alto-macchiato/fonts/MapleMono-NF-CN-BoldItalic.ttf",
+      "sha256": "f53c924bab11bc5e9693867a223ac0a9b64e5614d4c85bb733e41b1caebd73ae",
+      "size": 21245672,
+      "url": "https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-NF-CN-unhinted.zip",
+      "archive_sha256": "ab88522932cf4015dffeaef6dedc59a22a5fefecdcc6e583d9fcd997da5b7cac",
+      "member_basename": "MapleMono-NF-CN-BoldItalic.ttf",
+      "license": "theme/alto-macchiato/THIRD_PARTY_LICENSES.txt"
+    }
+  ],
+  "licenses": [
+    {
+      "path": "theme/alto-macchiato/THIRD_PARTY_LICENSES.txt",
+      "sha256": "b4d574b909339a3015668f55b1597492e499487acbc508a78210728e997b166a"
+    }
+  ],
+  "upstream_snapshots": [
+    {
+      "path": "theme/alto-macchiato/vendor/alto-dark.css",
+      "sha256": "66e7402cdda59873e1c8eee01c2efc622ac81b4ff4b8814e2caaba4462b832b6",
+      "source_relative_path": "alto-dark.css",
+      "original_sha256": "b582683608b6f52a0e5f88073b6e0099789866af48074512ffea723bb598406a",
+      "modifications": "Flattened local CSS import paths; style rules unchanged."
+    },
+    {
+      "path": "theme/alto-macchiato/vendor/alto.css",
+      "sha256": "afa18515ae9a16eee91e45e3ae30495a333109b28d01d892c05d2c713c6d9190",
+      "source_relative_path": "alto/alto.css",
+      "original_sha256": "7d2a53f3274d05732e7520320bf67815aefbb776d3ce120d35282ebbcd6ab770",
+      "modifications": "Removed upstream font faces; mapped text to WenKai and monospace content to Maple Mono."
+    },
+    {
+      "path": "theme/alto-macchiato/vendor/lapis.css",
+      "sha256": "e20361049cd095b7856518557706b57ff659debf0b250363afc1415d846af678",
+      "source_relative_path": "alto/lapis/lapis.css",
+      "original_sha256": "6a1beb7456dd9641f9d3649568d04088b2c8909bcabff9bc5696527235664159",
+      "modifications": "Removed upstream font faces; mapped text to WenKai and monospace content to Maple Mono."
+    },
+    {
+      "path": "theme/alto-macchiato/vendor/lapis-dark.css",
+      "sha256": "6d0c9498ebcbfe71d9a2e9d644e3a042f1214b873bf0d7dce248d2d77bb51699",
+      "source_relative_path": "alto/lapis/lapis-dark.css"
+    }
+  ],
+  "notes": {
+    "alto": "Based on the installed Alto snapshot; font references adapted to WenKai. Original and adapted CSS hashes are recorded separately.",
+    "lapis": "Based on 9124f8659699691edccdc52ba710c79aa801c621; upstream font faces removed and references mapped to WenKai / Maple Mono.",
+    "wenkai": "v1.522, original Light/Regular/Medium",
+    "maple": "v7.9 unhinted, original Regular/Bold/Italic/BoldItalic; matches installed Homebrew variant."
+  }
+}

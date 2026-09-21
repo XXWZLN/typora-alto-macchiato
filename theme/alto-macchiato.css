@@ -1,0 +1,8 @@
+/*
+ * Alto Macchiato — a personal Alto/Lapis variant, packaged for Typora.
+ * Copyright (c) 2026 XXWZLN. MIT; see alto-macchiato/LICENSE and alto-macchiato/THIRD_PARTY_LICENSES.txt.
+ * Load the adapted upstream layers first, then bundled fonts and overrides.
+ */
+@import "alto-macchiato/vendor/alto-dark.css";
+@import "alto-macchiato/fonts.css";
+@import "alto-macchiato/overrides.css";

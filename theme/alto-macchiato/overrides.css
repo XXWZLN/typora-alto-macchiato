@@ -1,0 +1,214 @@
+/* Alto Macchiato colors and typography. */
+:root {
+    --reading-font: "LXGW WenKai";
+    --monospace: "Maple Mono NF CN";
+    --mermaid-theme: dark;
+    --mermaid-font-family: var(--reading-font);
+}
+
+body,
+input,
+button,
+select,
+textarea {
+    font-family: var(--reading-font);
+}
+
+code, pre, kbd, samp, tt {
+    font-family: var(--monospace);
+}
+
+.reversefootnote {
+    font-family: var(--reading-font);
+}
+
+/* Ragged right: do not stretch spaces to fill lines containing long paths. */
+#write {
+    font-family: var(--reading-font);
+    text-align: left;
+    text-align-last: auto;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+#write p,
+#write li,
+#write li section {
+    text-align: left;
+    text-align-last: auto;
+}
+
+#write h1, #write h2, #write h3,
+#write h4, #write h5, #write h6,
+#write table tr th,
+#write .md-toc-content,
+#write div.md-toc-tooltip {
+    font-family: var(--reading-font);
+}
+
+/* Preserve Markdown's explicit table alignment. */
+#write table,
+#write table tr td:not([align]):not([style*="text-align"]) {
+    text-align: left;
+}
+
+#write code,
+#write pre,
+#write .md-fences,
+#write .CodeMirror,
+#write .CodeMirror pre,
+#write .cm-s-inner,
+#typora-source .CodeMirror,
+#typora-source .CodeMirror pre {
+    font-family: var(--monospace);
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+/* Muted Macchiato diagram surfaces; dark is the fallback for all chart types. */
+#write [lang="mermaid"] .md-diagram-panel {
+    background: transparent;
+}
+
+#write [lang="mermaid"] svg .node rect,
+#write [lang="mermaid"] svg .node circle,
+#write [lang="mermaid"] svg .node ellipse,
+#write [lang="mermaid"] svg .node polygon,
+#write [lang="mermaid"] svg .node path,
+#write [lang="mermaid"] svg rect.actor,
+#write [lang="mermaid"] svg .labelBox {
+    fill: #363a4f !important;
+    stroke: #8087a2 !important;
+}
+
+#write [lang="mermaid"] svg .cluster rect,
+#write [lang="mermaid"] svg .note {
+    fill: #1e2030 !important;
+    stroke: #494d64 !important;
+}
+
+#write [lang="mermaid"] svg text,
+#write [lang="mermaid"] svg .label,
+#write [lang="mermaid"] svg .nodeLabel,
+#write [lang="mermaid"] svg .edgeLabel,
+#write [lang="mermaid"] svg .edgeLabel p {
+    color: #c5cff5 !important;
+    fill: #c5cff5 !important;
+    font-family: var(--reading-font) !important;
+}
+
+#write [lang="mermaid"] svg .edgeLabel,
+#write [lang="mermaid"] svg .edgeLabel p {
+    background-color: #24273a !important;
+}
+
+#write [lang="mermaid"] svg .edgeLabel rect {
+    fill: #24273a !important;
+}
+
+#write [lang="mermaid"] svg .flowchart-link,
+#write [lang="mermaid"] svg .edgePath path,
+#write [lang="mermaid"] svg .actor-line,
+#write [lang="mermaid"] svg .messageLine0,
+#write [lang="mermaid"] svg .messageLine1 {
+    stroke: #a1aacb !important;
+}
+
+#write [lang="mermaid"] svg marker path {
+    fill: #a1aacb !important;
+    stroke: #a1aacb !important;
+}
+
+/* Colors only: my-wiki / AnuPpuccin / Catppuccin Macchiato. */
+:root {
+    --alto-main-color: #181926;
+    --alto-content-color: #24273a;
+    --alto-accent-color: #c6a0f6;
+    --alto-text-color: #c5cff5;
+    --bg-color: #24273a;
+    --side-bar-bg-color: #181926;
+    --panel-bg-color: #363a4f;
+    --text-color: #c5cff5;
+    --primary-color: #c6a0f6;
+    --code-color: #c5cff5;
+    --marker-color: #8f97b7;
+    --highlight-color: rgba(183, 189, 248, 0.2);
+    --header-span-color: #363a4f;
+    --block-bg-color: #181926;
+    --quote-block-bg-color: rgba(24, 25, 38, 0.5);
+    --md-char-color: #8f97b7;
+    --heading-char-color: #c6a0f6;
+    --source-color: #a1aacb;
+    --select-text-bg-color: rgba(198, 160, 246, 0.25);
+    --search-select-bg-color: rgba(198, 160, 246, 0.4);
+    --item-hover-bg-color: #363a4f;
+    --control-text-hover-color: #c5cff5;
+    --rawblock-edit-panel-bd: #363a4f;
+}
+
+content, content:hover { background-color: #24273a !important; }
+#write { color: #c5cff5; }
+#write strong { color: #7dc4e4; }
+#write em { color: #8aadf4; }
+#write a { color: #c6a0f6; }
+#write mark { background-color: rgba(183, 189, 248, 0.2); color: #c5cff5; }
+#write blockquote { border-left-color: #c6a0f6; }
+#write hr { border-color: #363a4f; }
+
+/* Match the vault's per-level heading colors; retain Typora's geometry. */
+#write h1 { color: #91d7e3; }
+#write h2 { color: #8bd5ca; background-color: transparent; }
+#write h3 { color: #a6da95; }
+#write h4 { color: #eed49f; }
+#write h5 { color: #f5a97f; }
+#write h6 { color: #ee99a0; }
+#write :is(h1,h2,h3,h4,h5,h6) :is(strong,em,a,code,script) { color: inherit; }
+#write h2 a { border-bottom-color: #8bd5ca !important; }
+
+#sidebar-files-menu.dropdown-menu > li > a:hover,
+.context-menu.dropdown-menu > .active > a,
+.context-menu.dropdown-menu > li > a:hover,
+.menu-style-btn.active { background-color: #363a4f; }
+#recent-file-panel tbody tr:hover { background-color: #363a4f !important; }
+#spell-check-panel, #footer-word-count-info, [role="menu"] { border-color: #484c64; }
+
+/* Keep syntax colors in the same pastel palette. */
+#write .cm-s-inner .cm-keyword { color: #c6a0f6 !important; }
+#write .cm-s-inner .cm-operator { color: #91d7e3 !important; }
+#write .cm-s-inner :is(.cm-variable,.cm-property,.cm-quote) { color: #c5cff5 !important; }
+#write .cm-s-inner :is(.cm-builtin,.cm-type,.cm-variable-3,.cm-attribute) { color: #eed49f !important; }
+#write .cm-s-inner .cm-variable-2 { color: #ee99a0 !important; }
+#write .cm-s-inner :is(.cm-atom,.cm-number) { color: #f5a97f !important; }
+#write .cm-s-inner :is(.cm-def,.cm-qualifier) { color: #8aadf4 !important; }
+#write .cm-s-inner .cm-string { color: #a6da95 !important; }
+#write .cm-s-inner .cm-string-2 { color: #8bd5ca !important; }
+#write .cm-s-inner .cm-comment { color: #8f97b7 !important; }
+#write .cm-s-inner .cm-meta { color: #f5a97f !important; }
+#write .cm-s-inner .cm-tag { color: #c6a0f6 !important; }
+#write .cm-s-inner .cm-header { color: #91d7e3 !important; }
+#write .cm-s-inner .cm-error { color: #ed8796 !important; background-color: rgba(237,135,150,0.15) !important; }
+#write .cm-s-inner .CodeMirror-matchingbracket { color: #c5cff5 !important; }
+
+.md-alert.md-alert-note { background-color: rgba(138,173,244,0.1); border-left-color: #8aadf4; }
+.md-alert-text-note { color: #8aadf4; }
+.md-alert.md-alert-tip { background-color: rgba(139,213,202,0.1); border-left-color: #8bd5ca; }
+.md-alert-text-tip { color: #8bd5ca; }
+.md-alert.md-alert-important { background-color: rgba(198,160,246,0.1); border-left-color: #c6a0f6; }
+.md-alert-text-important { color: #c6a0f6; }
+.md-alert.md-alert-warning { background-color: rgba(238,212,159,0.1); border-left-color: #eed49f; }
+.md-alert-text-warning { color: #eed49f; }
+.md-alert.md-alert-caution { background-color: rgba(237,135,150,0.1); border-left-color: #ed8796; }
+.md-alert-text-caution { color: #ed8796; }
+
+/* Consistent heading alignment and weight, 2026-09-19. */
+#write h2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#write h1, #write h2, #write h3,
+#write h4, #write h5, #write h6 {
+    font-weight: 700;
+}

@@ -1,0 +1,60 @@
+/* Original, unmodified OFL font binaries are supplied by the offline package.
+ * No local() lookup: use the pinned files even if another version is installed.
+ * WenKai has no native bold/italic; Typora may synthesize these styles.
+ */
+
+@font-face {
+    font-family: "LXGW WenKai";
+    src: url("fonts/LXGWWenKai-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "LXGW WenKai";
+    src: url("fonts/LXGWWenKai-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "LXGW WenKai";
+    src: url("fonts/LXGWWenKai-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Maple Mono NF CN";
+    src: url("fonts/MapleMono-NF-CN-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Maple Mono NF CN";
+    src: url("fonts/MapleMono-NF-CN-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Maple Mono NF CN";
+    src: url("fonts/MapleMono-NF-CN-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Maple Mono NF CN";
+    src: url("fonts/MapleMono-NF-CN-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}

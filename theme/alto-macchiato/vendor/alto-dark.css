@@ -1,0 +1,64 @@
+/* 
+ *   Typora Theme - Alto - Dark Version / Author - Seeridia
+ *   https://github.com/Seeridia/typora-theme-alto
+ */
+
+@import "lapis-dark.css";
+@import "alto.css";
+
+:root {
+    --alto-accent-color: #487dac;
+    --alto-main-color: #181c24;
+    --alto-content-color: rgb(30, 34, 42);
+    --alto-text-color: #fff;
+}
+
+content {
+    background-color: rgba(30, 34, 42, 0.75);
+}
+
+content:hover {
+    background-color: rgba(30, 34, 42, 1);
+}
+
+/* 侧边底栏 */
+#sidebar-files-menu.dropdown-menu>li>a:hover {
+    background-color: #2b2e37;
+}
+
+/* 右键菜单 */
+.context-menu.dropdown-menu>.active>a,
+.context-menu.dropdown-menu>li>a:hover,
+.menu-style-btn.active {
+    background-color: #2b2e37;
+}
+
+/* 最近文件 */
+.megamenu-menu-panel tbody tr:hover {
+    background-color: #2b2e37 !important;
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: transparent;
+}
+
+#spell-check-panel,
+#footer-word-count-info,
+[role="menu"] {
+    border-color: #4a4a4a;
+}
+
+/* 弹窗选项 */
+.modal-open .modal.fade.in {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* 偏好设置 */
+.nav-group-item.active,
+[data-localize="OK"] {
+    background-color: rgba(143, 143, 143, 0.1) !important;
+}
+
+.window {
+    background: var(--alto-main-color) !important;
+}
